@@ -29,3 +29,16 @@ public class MernisServiceAdapter implements CustomerCheckService {
 	}
 
 }
+
+/*
+ * Hata alanlar için bir arkadaþ paylaþmýþtý bende paylaþayým Mernis sistemini eclipse yükledikten sonra hata alanlar bu iþlemi yapabilirler.
+
+ Mernis servisini eklemek için 
+Projeye sað týklayýp New>Other>Web Service >Web Service Client kýsmýna týklayýp yukarýda 
+yazan Browse kýsmýna https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?wsdl yazýp finish diyin.
+
+ Service baðlý olasý hatalarýn olasý çözümü için 
+Projeye sað týklayýp en altta Properties>Java Complier>Configure Workspace Settings...
+(Sað üstte yazýyor týklayýn)>açýlan sayfada Complier compliance level kýsmýný 1.8 yapýn> 
+ardýndan Use default compliance settings tikini kaldýrýn. Apply and Close diyin.
+*/
